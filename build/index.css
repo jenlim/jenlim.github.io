@@ -1,0 +1,73 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  max-width: 720px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0 20px; }
+
+section {
+  position: relative;
+  height: 100vh;
+  font-weight: 300; }
+  section h2 {
+    font-weight: 300;
+    margin-top: 0;
+    font-size: 32px; }
+    @media (min-width: 768px) {
+      section h2 {
+        font-size: 36px; } }
+  section a {
+    text-decoration: none;
+    color: black;
+    font-weight: 400; }
+  section ul {
+    padding: 0; }
+  section li {
+    list-style: none; }
+  section p {
+    padding: 0 20px;
+    line-height: 1.6;
+    max-width: 480px;
+    margin: 0 auto; }
+
+.content-wrapper {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%); }
+
+.section-title h1 {
+  font-size: 42px;
+  font-weight: 300;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-top: 0; }
+
+.section-final h2 {
+  font-size: 48px;
+  font-weight: 300;
+  line-height: 100vh; }
+
+.divider {
+  border-bottom: 1px solid rgba(220, 220, 220, 0.4);
+  max-width: 600px;
+  margin: 0 auto;
+  position: relative; }
+
+.next {
+  cursor: pointer;
+  position: absolute;
+  bottom: 80px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  margin: 0 auto; }
+
+.arrow-down {
+  position: relative;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-right: 2px solid gainsboro;
+  border-top: 2px solid gainsboro;
+  transform: rotate(135deg); }
